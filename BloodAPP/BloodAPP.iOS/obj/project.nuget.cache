@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "oNalaFljWXp+Np3D1Zg8G8MF2EbGBpHuXbACA3hSSFp2STmuB1zC7oYqLi95TQCMAJmjQEoWntnE4U1yh/+47Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mahmo\\source\\repos\\BloodAPP\\BloodAPP\\BloodAPP.iOS\\BloodAPP.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mahmo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\mahmo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

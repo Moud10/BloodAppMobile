@@ -1,0 +1,15 @@
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\BloodAPP.deps.json
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\BloodAPP.dll
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\ref\BloodAPP.dll
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\BloodAPP.pdb
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.csprojAssemblyReference.cache
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.AssemblyInfoInputs.cache
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.AssemblyInfo.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.csproj.CoreCompileInputs.cache
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.dll
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\ref\BloodAPP.dll
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.pdb
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\SignInPage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
