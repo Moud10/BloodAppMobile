@@ -1,6 +1,9 @@
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\BloodAPP.iOS.exe
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\BloodAPP.iOS.pdb
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Newtonsoft.Json.dll
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Plugin.Settings.Abstractions.dll
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Plugin.Settings.Abstractions.pdb
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Plugin.Settings.dll
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Xamarin.Essentials.dll
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Xamarin.Essentials.pdb
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP.iOS\bin\iPhone\Debug\Xamarin.Forms.Core.dll

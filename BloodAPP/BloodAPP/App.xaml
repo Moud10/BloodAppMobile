@@ -3,6 +3,11 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="BloodAPP.App">
     <Application.Resources>
-
+        <ResourceDictionary>
+            <Style TargetType="NavigationPage">
+                <Setter Property="BarBackgroundColor" Value="#E96950"></Setter>
+                <Setter Property="BarTextColor" Value="White"></Setter>
+            </Style>
+        </ResourceDictionary>
     </Application.Resources>
 </Application>

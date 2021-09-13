@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "6/D71XoI9KJPQIzTegd1AnE+p4RLWkDUm12QuhmVSi0UCRa29KgwGer7y8/SvKdSADXOvrqszn3SLNlfN5WMWA==",
+  "dgSpecHash": "erO/itdavcRN+okcrpVyL2WvGRLZiI1CvQmRkanbgqd6cjUCS1EvqlAMZEmRN847Mm6apeltfHSA+OT32z//Eg==",
   "success": true,
   "projectFilePath": "C:\\Users\\mahmo\\source\\repos\\BloodAPP\\BloodAPP\\BloodAPP.Android\\BloodAPP.Android.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mahmo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mahmo\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",

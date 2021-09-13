@@ -2,8 +2,10 @@ C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\BloodAPP.dll
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\ref\BloodAPP.dll
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\bin\Debug\netstandard2.0\BloodAPP.pdb
-C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.csprojAssemblyReference.cache
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\SignInPage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\SignUpPage.xaml.g.cs
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.AssemblyInfoInputs.cache
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.AssemblyInfo.cs
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.csproj.CoreCompileInputs.cache
@@ -11,5 +13,9 @@ C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.dll
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\ref\BloodAPP.dll
 C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.pdb
-C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\SignInPage.xaml.g.cs
-C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\HomePage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\BloodAPP.csprojAssemblyReference.cache
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\FindBloodPage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\HelpPage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\LatestDonars.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\RegisterBloodPage.xaml.g.cs
+C:\Users\mahmo\source\repos\BloodAPP\BloodAPP\BloodAPP\obj\Debug\netstandard2.0\Pages\DonarsListPage.xaml.g.cs

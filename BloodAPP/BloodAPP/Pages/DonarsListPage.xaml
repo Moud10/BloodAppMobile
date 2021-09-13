@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BloodAPP.Pages.DonarsListPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView x:Name="maListeView" SeparatorColor="Silver" RowHeight="100" Margin="5">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding ImagePath}" Aspect="AspectFill" Grid.Row="0" Grid.Column="0"  x:Name="img"/>
+                                <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
+                                    <Label Text="{Binding UserName}" TextColor="Black" FontSize="22"/>
+                                    <Label Text="{Binding BloodGroup}" TextColor="Orange" FontSize="20"/>
+                                    <Label Text="{Binding Country}" TextColor="#555" FontSize="18"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
