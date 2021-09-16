@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -20,16 +21,23 @@ namespace BloodAPP.Pages
         }
         private async void BtnLogin_Clicked(object sender, EventArgs e)
         {
-            var apiServices = new ApiServices();
-            bool response = await apiServices.LoginUser(entEmail.Text, entPassword.Text);
-            if (!response)
+            try
             {
-                await DisplayAlert("Alert", "Something wrong...", "Cancel");
+                var apiServices = new ApiServices();
+                bool response = await apiServices.LoginUser(entEmail.Text, entPassword.Text);
+                if (!response)
+                {
+                    await DisplayAlert("Alert", "Something wrong...", "Cancel");
+                }
+                else
+                {
+                    Navigation.InsertPageBefore(new HomePage(), this);
+                    await Navigation.PopAsync();
+                }
             }
-            else
+            catch(Exception ex)
             {
-                Navigation.InsertPageBefore(new HomePage(), this);
-                await Navigation.PopAsync();
+                await DisplayAlert("Alert", ex.Message + " Please turn on your network", "Cancel");
             }
         }
         private void TapSignUp_Tapped(object sender, EventArgs e)

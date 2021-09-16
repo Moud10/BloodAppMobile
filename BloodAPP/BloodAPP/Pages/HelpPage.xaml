@@ -4,9 +4,10 @@
              x:Class="BloodAPP.Pages.HelpPage">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to HelpPage!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <Label Text="Blood is one of the most important necessity of our life.The numbers of blood donor is very less In Canada. If you want to donate blood then consult your doctor first and then after the advice of doctor you can craete a profile with this application and Save Humanity. 
+                   Best Regards" TextColor="#A5A7A8" FontSize="Medium"/>
+            <Label TextColor="#A5A7A8" Margin="0,40,0,0" FontSize="Medium" Text="If you need any help from our team feel free to call at this number +1223456789"/>
+            <Image HeightRequest="80" WidthRequest="80" Source="helpandsupport.png" Margin="0,50,0,0"></Image>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

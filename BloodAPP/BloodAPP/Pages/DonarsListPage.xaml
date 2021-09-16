@@ -4,23 +4,20 @@
              x:Class="BloodAPP.Pages.DonarsListPage">
     <ContentPage.Content>
         <StackLayout>
-            <ListView x:Name="maListeView" SeparatorColor="Silver" RowHeight="100" Margin="5">
+            <ListView Margin="5" x:Name="LvBloodDonars" HasUnevenRows="True" ItemSelected="LvBloodDonars_ItemSelected">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell>
                             <Grid>
-                                <Grid.RowDefinitions>
-                                    <RowDefinition Height="*" />
-                                </Grid.RowDefinitions>
                                 <Grid.ColumnDefinitions>
-                                    <ColumnDefinition Width="Auto" />
-                                    <ColumnDefinition Width="Auto" />
+                                    <ColumnDefinition Width="0.25*"/>
+                                    <ColumnDefinition Width="*"/>
                                 </Grid.ColumnDefinitions>
-                                <Image Source="{Binding ImagePath}" Aspect="AspectFill" Grid.Row="0" Grid.Column="0"  x:Name="img"/>
-                                <StackLayout Grid.Row="0" Grid.Column="1" Orientation="Vertical" VerticalOptions="Center" HorizontalOptions="FillAndExpand">
-                                    <Label Text="{Binding UserName}" TextColor="Black" FontSize="22"/>
-                                    <Label Text="{Binding BloodGroup}" TextColor="Orange" FontSize="20"/>
-                                    <Label Text="{Binding Country}" TextColor="#555" FontSize="18"/>
+                                <Image Source="{Binding imgTemp}" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="80" WidthRequest="80" Grid.Column="0" Margin="5"/>
+                                <StackLayout Grid.Column="1" Margin="5,5,0,0">
+                                    <Label Text="{Binding UserName}" VerticalOptions="Center" FontSize="16" TextColor="Black"/>
+                                    <Label Text="{Binding BloodGroup}" VerticalOptions="Center" FontSize="14" TextColor="#E96950"/>
+                                    <Label Text="{Binding Country}" VerticalOptions="Center" FontSize="12" TextColor="#A5A7A8"/>
                                 </StackLayout>
                             </Grid>
                         </ViewCell>

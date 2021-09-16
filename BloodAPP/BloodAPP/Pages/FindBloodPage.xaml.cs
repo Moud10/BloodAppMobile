@@ -20,8 +20,13 @@ namespace BloodAPP.Pages
 
         private void BtnSearch_Clicked(object sender, EventArgs e)
         {
+            if (PickerCountry.SelectedIndex < 0|| PickerBloodGroup.SelectedIndex < 0)
+            {
+                DisplayAlert("Alert","please your country and your Blood Group","Cancel");
+                return;
+            }
             var country = PickerCountry.Items[PickerCountry.SelectedIndex];
-            var BloodGroup = PickerBloodGroup.Items[PickerBloodGroup.SelectedIndex].Trim().Replace("+","%2B");
+            var BloodGroup = PickerBloodGroup.Items[PickerBloodGroup.SelectedIndex].Trim().Replace("+", "%2B");
             Navigation.PushAsync(new DonarsListPage(country, BloodGroup));
         }
     }

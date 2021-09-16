@@ -1,4 +1,7 @@
 FormsViewGroup.dll
+Plugin.CurrentActivity.dll
+Plugin.Media.dll
+Plugin.Messaging.dll
 Plugin.Settings.dll
 Xamarin.AndroidX.Activity.dll
 Xamarin.AndroidX.Annotation.dll

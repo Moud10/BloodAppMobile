@@ -1,17 +1,19 @@
 {
   "version": 2,
-  "dgSpecHash": "7RGNSDmlWXUwSDdvprE0N09ArA525Dbh2n9jU3ESG2f8sG+19TONrVUhrPRvHRcLKpD0yS+MObTt47kA5INEzA==",
+  "dgSpecHash": "4Z1OngT7YKoKzVhNWjrnY2arD6z2lP/zrwFkeGTE0VwT5nWZ34YlCXiYnAVkxmISscx+raeJVhVK/EK8YTUcaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mahmo\\source\\repos\\BloodAPP\\BloodAPP\\BloodAPP\\BloodAPP.csproj",
+  "projectFilePath": "C:\\Users\\mahmo\\OneDrive\\Bureau\\BloodAPP\\BloodAppMobile\\BloodAPP\\BloodAPP\\BloodAPP.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mahmo\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\mahmo\\.nuget\\packages\\xam.plugin.media\\5.0.1\\xam.plugin.media.5.0.1.nupkg.sha512",
+    "C:\\Users\\mahmo\\.nuget\\packages\\xam.plugins.messaging\\5.2.0\\xam.plugins.messaging.5.2.0.nupkg.sha512",
     "C:\\Users\\mahmo\\.nuget\\packages\\xam.plugins.settings\\3.1.1\\xam.plugins.settings.3.1.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.6.1\\xamarin.essentials.1.6.1.nupkg.sha512",
-    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+    "C:\\Users\\mahmo\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\mahmo\\.nuget\\packages\\xamarin.forms\\5.0.0.2083\\xamarin.forms.5.0.0.2083.nupkg.sha512"
   ],
   "logs": []
 }

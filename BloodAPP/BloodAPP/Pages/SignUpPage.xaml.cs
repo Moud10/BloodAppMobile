@@ -20,16 +20,23 @@ namespace BloodAPP.Pages
 
         private async void BtnSignUp_Clicked(object sender, EventArgs e)
         {
-            var apiServices = new ApiServices();
-            bool response = await apiServices.RegisterUser(EntEmail.Text,EntPassword.Text,EntConfirmPassword.Text);
-            if (!response)
+            try
             {
-                await DisplayAlert("Alert", "Something wrong...", "Cancel");
+                var apiServices = new ApiServices();
+                bool response = await apiServices.RegisterUser(EntEmail.Text, EntPassword.Text, EntConfirmPassword.Text);
+                if (!response)
+                {
+                    await DisplayAlert("Alert", "Something wrong...", "Cancel");
+                }
+                else
+                {
+                    await DisplayAlert("Hello", "Your account has been created", "Ok");
+                    await Navigation.PopToRootAsync();
+                }
             }
-            else
+            catch (Exception ex)
             {
-                await DisplayAlert("Hello", "Your account has been created", "Ok");
-                await Navigation.PopToRootAsync();
+                await DisplayAlert("Alert", ex.Message + " Please turn on your network", "Cancel");
             }
         }
     }

@@ -13,6 +13,7 @@ namespace BloodAPP.Services
     public class ApiServices
     {
         static string acces_token = "";
+        static string url = "https://192.168.0.108:45455/";
         public async Task<bool> RegisterUser(string email,string password,string confirmPassword)
         {
             var registerModel = new RegisterModel()
@@ -24,7 +25,7 @@ namespace BloodAPP.Services
             var httpClient = httpClientF();
             var json=JsonConvert.SerializeObject(registerModel);
             var content = new StringContent(json,Encoding.UTF8,"application/json");
-            var response=await httpClient.PostAsync("https://192.168.0.108:45457/api/Account/register", content);
+            var response=await httpClient.PostAsync(url+"api/Account/register", content);
             return response.IsSuccessStatusCode;
         }
         public async Task<bool> LoginUser(string email, string password)
@@ -34,7 +35,7 @@ namespace BloodAPP.Services
             new KeyValuePair<string, string>("password", password),
             new KeyValuePair<string, string>("grant_type", "password")
             };
-            var request = new HttpRequestMessage(HttpMethod.Post, "https://192.168.0.108:45457/token");
+            var request = new HttpRequestMessage(HttpMethod.Post, url + "token");
             request.Content = new FormUrlEncodedContent(keyvalue);
             var httpClient = httpClientF();
             var response = await httpClient.SendAsync(request);
@@ -46,32 +47,29 @@ namespace BloodAPP.Services
             Settings.Password = password;
             return response.IsSuccessStatusCode;
         }
-        public List<BloodUser>FindBlood(string country,string bloodType)
+        public async Task<List<BloodUser>> FindBlood(string country, string bloodType)
         {
             var httpClient = httpClientF();
             httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Settings.AccessToken);
-            var bloodApiUrl = "https://192.168.0.108:45457/api/BloodUsers";
-            var json = httpClient.GetStringAsync($"{bloodApiUrl}?bloodGroup={bloodType}&country={country}").GetAwaiter().GetResult();
+            var bloodApiUrl = url + "api/BloodUsers";
+            var json = await httpClient.GetStringAsync($"{bloodApiUrl}?bloodGroup={bloodType}&country={country}");
             return JsonConvert.DeserializeObject<List<BloodUser>>(json);
         }
-        public List<BloodUser> LatestBloodUser()
+        public async Task<List<BloodUser>> LatestBloodUser()
         {
-            var httpClientHandler = new HttpClientHandler();
-            httpClientHandler.ServerCertificateCustomValidationCallback =
-            (message, cert, chain, errors) => { return true; };
-            var httpClient = new HttpClient(httpClientHandler);
-            var res=httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", acces_token);
-            var bloodApiUrl = "https://192.168.0.108:45457/api/BloodUsers";
-            var json = httpClient.GetStringAsync($"{bloodApiUrl}").GetAwaiter().GetResult();
+            var httpClient = httpClientF();
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Settings.AccessToken);
+            var bloodApiUrl = url + "api/BloodUsers";
+            var json = await httpClient.GetStringAsync(bloodApiUrl);
             return JsonConvert.DeserializeObject<List<BloodUser>>(json);
         }
         public async Task<bool> RegisterDonar(BloodUser bloodUser)
         {
             var json = JsonConvert.SerializeObject(bloodUser);
-            var httpClient = new HttpClient();
+            var httpClient = httpClientF();
             var content = new StringContent(json, Encoding.UTF8, "application/json");
-            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", "access token");
-            var bloodApiUrl = "https://192.168.0.108:45456/api/BloodUsers";
+            httpClient.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("bearer", Settings.AccessToken);
+            var bloodApiUrl = url + "api/BloodUsers";
             var response = await httpClient.PostAsync($"{bloodApiUrl}",content);
             return response.IsSuccessStatusCode;
         }
@@ -83,5 +81,6 @@ namespace BloodAPP.Services
             var httpClient = new HttpClient(httpClientHandler);
             return httpClient;
         }
+        
     }
 }

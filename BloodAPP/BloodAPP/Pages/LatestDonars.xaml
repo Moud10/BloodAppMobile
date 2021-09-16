@@ -4,9 +4,26 @@
              x:Class="BloodAPP.Pages.LatestDonars">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Welcome to Latest Donars!"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            <ListView Margin="5" x:Name="LvBloodDonars" HasUnevenRows="True" ItemSelected="LvBloodDonars_ItemSelected">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="0.25*"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Image Source="{Binding imgTemp}" HorizontalOptions="Center" VerticalOptions="Center" HeightRequest="80" WidthRequest="80" Grid.Column="0" Margin="5"/>
+                                <StackLayout Grid.Column="1" Margin="5,5,0,0">
+                                    <Label Text="{Binding UserName}" VerticalOptions="Center" FontSize="16" TextColor="Black"/>
+                                    <Label Text="{Binding BloodGroup}" VerticalOptions="Center" FontSize="14" TextColor="#E96950"/>
+                                    <Label Text="{Binding Country}" VerticalOptions="Center" FontSize="12" TextColor="#A5A7A8"/>
+                                </StackLayout>
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
