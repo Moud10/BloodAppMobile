@@ -5,8 +5,8 @@ This mobile xamarin app is called bloodApp, Users can sign in and signUp, after 
 ![Screenshot_1631501077](https://user-images.githubusercontent.com/89540033/133016386-ece6c99b-5a6e-4fee-9532-1d9bcafeb5f0.png)
 ![Screenshot_1631501107](https://user-images.githubusercontent.com/89540033/133016417-6213032b-e791-46c9-9443-74466d7c604b.png)
 ![Screenshot_1631501123](https://user-images.githubusercontent.com/89540033/133016433-446fb187-43dc-4711-86a1-8765abb61996.png)
-This is registar blood Donar:
+
 ![Screenshot_1633306624](https://user-images.githubusercontent.com/89540033/135778467-8e4d9816-e998-4a87-97aa-a542f22041a1.png)
-we can contact the Donar here:
+
 ![Screenshot_1633306667](https://user-images.githubusercontent.com/89540033/135778487-3925e5be-5d0c-4bde-9450-1168ba3468cd.png)
 
